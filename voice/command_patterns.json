@@ -1,0 +1,109 @@
+{
+  "greeting": {
+    "bn": ["হ্যালো", "হাই", "নমস্কার", "সালাম", "কেমন আছ", "কি অবস্থা"],
+    "en": ["hello", "hi", "hey", "greetings", "how are you"],
+    "response": {
+      "bn": ["হ্যালো! কেমন আছেন?", "নমস্কার! কি সাহায্য করতে পারি?"],
+      "en": ["Hello! How can I help you?", "Hi there! What can I do for you?"]
+    }
+  },
+  "time": {
+    "bn": ["সময় কত", "কয়টা বাজে", "সময় বল", "ঘড়িতে কটা"],
+    "en": ["what time", "time", "clock", "current time"],
+    "response": {
+      "bn": "এখন সময় {{time}}",
+      "en": "The time is {{time}}"
+    }
+  },
+  "date": {
+    "bn": ["আজকের তারিখ", "তারিখ বল", "কত তারিখ", "দিন বল"],
+    "en": ["date", "today's date", "what date", "day"],
+    "response": {
+      "bn": "আজকের তারিখ {{date}}",
+      "en": "Today's date is {{date}}"
+    }
+  },
+  "weather": {
+    "bn": ["আবহাওয়া", "আকাশ", "বৃষ্টি", "তাপমাত্রা", "আদৌ"],
+    "en": ["weather", "temperature", "forecast", "rain"],
+    "response": {
+      "bn": "{{location}} এর আবহাওয়া: {{description}}, তাপমাত্রা {{temp}}°C",
+      "en": "Weather in {{location}}: {{description}}, temperature {{temp}}°C"
+    }
+  },
+  "open": {
+    "bn": ["খোল", "চালু কর", "ওপেন", "স্টার্ট"],
+    "en": ["open", "start", "launch", "run"],
+    "apps": {
+      "ক্রোম": "chrome",
+      "ফায়ারফক্স": "firefox",
+      "নোটপ্যাড": "notepad",
+      "ক্যালকুলেটর": "calculator",
+      "গান": "music"
+    }
+  },
+  "close": {
+    "bn": ["বন্ধ কর", "ক্লোজ", "স্টপ", "বাতিল"],
+    "en": ["close", "stop", "exit", "quit"],
+    "response": {
+      "bn": "ঠিক আছে, বন্ধ করছি",
+      "en": "Okay, closing it"
+    }
+  },
+  "search": {
+    "bn": ["খুঁজ", "সার্চ", "জানতে চাই", "তথ্য"],
+    "en": ["search", "find", "look for", "information"],
+    "response": {
+      "bn": "{{query}} অনুসন্ধান করা হচ্ছে",
+      "en": "Searching for {{query}}"
+    }
+  },
+  "music": {
+    "bn": ["গান", "সঙ্গীত", "মিউজিক", "প্লে", "বাজাও"],
+    "en": ["music", "song", "play music", "play song"],
+    "response": {
+      "bn": "গান বাজানো হচ্ছে",
+      "en": "Playing music"
+    }
+  },
+  "joke": {
+    "bn": ["রসিকতা", "মজা", "কৌতুক", "হাসি"],
+    "en": ["joke", "funny", "make me laugh", "humor"],
+    "response": {
+      "bn": ["একটা মজার কথা শুনুন...", "হাসির জন্য তৈরি?"],
+      "en": ["Here's a funny one...", "Ready for a laugh?"]
+    }
+  },
+  "news": {
+    "bn": ["খবর", "নিউজ", "তাজা খবর", "সংবাদ"],
+    "en": ["news", "headlines", "latest news", "current events"],
+    "response": {
+      "bn": "তাজা খবর সংগ্রহ করা হচ্ছে",
+      "en": "Getting the latest news"
+    }
+  },
+  "calculation": {
+    "bn": ["গণনা", "ক্যালকুলেট", "যোগ", "বিয়োগ", "গুণ", "ভাগ"],
+    "en": ["calculate", "math", "add", "subtract", "multiply", "divide"],
+    "response": {
+      "bn": "গণনা করা হচ্ছে: {{expression}} = {{result}}",
+      "en": "Calculating: {{expression}} = {{result}}"
+    }
+  },
+  "translation": {
+    "bn": ["অনুবাদ", "ট্রান্সলেট", "ভাষান্তর"],
+    "en": ["translate", "translation"],
+    "response": {
+      "bn": "অনুবাদ করা হচ্ছে",
+      "en": "Translating"
+    }
+  },
+  "system": {
+    "bn": ["সিস্টেম", "কম্পিউটার", "শাটডাউন", "রিস্টার্ট"],
+    "en": ["system", "computer", "shutdown", "restart"],
+    "response": {
+      "bn": "সিস্টেম {{action}} করা হচ্ছে",
+      "en": "{{action}} the system"
+    }
+  }
+}
