@@ -1,0 +1,17 @@
+{
+  "name": "মায়া",
+  "version": "2.0.0",
+  "mode": "cli",
+  "language": "bn",
+  "voice": {
+    "language": "bn",
+    "gender": "female",
+    "speech_rate": 150,
+    "volume": 0.9
+  },
+  "brain": {
+    "model_name": "banglabert",
+    "reasoning_enabled": true,
+    "learning_enabled": true
+  }
+}
